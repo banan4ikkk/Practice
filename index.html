@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autoservice KM Zero</title>
+  <link rel="icon" href="Images/icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&subset=cyrillic-ext" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">KM Zero</div>
+        <nav class="nav" id="nav">
+          <a href="#about" data-scroll="#about" class="nav__link">About</a>
+          <a href="#services" data-scroll="#services" class="nav__link">Services</a>
+          <a href="#feedback" data-scroll="#feedback" class="nav__link">Feedback</a>
+          <a href="#contact" data-scroll="#contact" class="nav__link">Contact</a>
+        </nav>
+        <div class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <h1 class="intro__title">Welcome To Autoservice KM Zero</h1>
+        <a class="btn" href="#services" data-scroll="#services">Show More</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section" id="about">
+    <div class="container">
+
+      <div class="section__header">
+        <h2 class="section__title">Story about us</h2>
+        <div class="section__text">
+          <p>
+            Autoservice KM Zero is a well-known car service center that has been providing quality services to car owners for years.
+            Located in the heart of the city, it’s a go-to destination for anyone looking to repair or maintain their vehicle.
+          </p>
+          <p>
+            The name KM Zero symbolizes a fresh start, indicating that the service center helps customers reset their cars to optimal
+            condition, as if starting from zero kilometers. This idea reflects their philosophy of providing reliable and efficient
+            solutions for all car problems.
+          </p>
+          <p>
+            At KM Zero, the staff is highly trained and experienced. They offer a wide range of services, including oil changes,
+            brake repairs, tire replacements, engine diagnostics, and bodywork. The service center is equipped with modern tools and
+            advanced diagnostic equipment, ensuring precise and professional work.
+          </p>
+          <p>
+            What makes KM Zero stand out is its customer-first approach. They believe in transparency, explaining every repair process
+            in detail and offering fair prices. Customers appreciate the welcoming atmosphere and the technicians' willingness to answer
+            all their questions.
+          </p>
+          <p>
+            In addition to regular repairs, KM Zero also provides emergency roadside assistance. If your car breaks down unexpectedly,
+            their team will come to your location and help get your vehicle back on the road.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__item" data-modal="team">
+          <div class="card__inner">
+            <div class="card__img">
+              <img src="images/intro.jpg" alt="">
+            </div>
+            <div class="card__text">Team KM Zero</div>
+          </div>
+        </div>
+
+        <div class="card__item" data-modal="building">
+          <div class="card__inner">
+            <div class="card__img">
+              <img src="images/intro5.jpg" alt="">
+            </div>
+            <div class="card__text">Building KM Zero</div>
+          </div>
+        </div>
+
+        <div class="card__item" data-modal="workplace">
+          <div class="card__inner">
+            <div class="card__img">
+              <img src="images/introo.jpg" alt="">
+            </div>
+            <div class="card__text">Workplace KM Zero</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="modal-close">&times;</span>
+          <div id="modal-body"></div>
+        </div>
+      </div>
